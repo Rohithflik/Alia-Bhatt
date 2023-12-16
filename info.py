@@ -34,8 +34,8 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 # MongoDB information
 DATABASE_URL = environ.get('DATABASE_URL', "https://t.me/+h05eQCVO3nA1Yzhl")
 DATABASE_NAME = environ.get('F7 DATABASE 2', "Cluster0")
-FILE_DB_URL = environ.get("FILE_DB_URL", DATABASE_URL)
-FILE_DB_NAME = environ.get("FILE_DB_NAME", DATABASE_NAME)
+FILE_DB_URL = environ.get("https://t.me/+39zjsdNl3xgwZGQ1", DATABASE_URL)
+FILE_DB_NAME = environ.get("F7 LOGS", DATABASE_NAME)
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Filters Configuration 
